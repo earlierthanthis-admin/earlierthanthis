@@ -1,0 +1,15 @@
+allowBuild: '@prisma/engines prisma'
+
+onlyBuiltDependencies:
+  - ' '
+  - '@'
+  - /
+  - a
+  - e
+  - g
+  - i
+  - m
+  - n
+  - p
+  - r
+  - s

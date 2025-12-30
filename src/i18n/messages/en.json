@@ -1,0 +1,523 @@
+{
+  "common": {
+    "appName": "Earlier Than This",
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "submit": "Submit",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "back": "Back",
+    "next": "Next",
+    "or": "or",
+    "pleaseWait": "Please wait...",
+    "user": "User"
+  },
+  "nav": {
+    "timeline": "Timeline",
+    "about": "About",
+    "login": "Login",
+    "logout": "Logout",
+    "loggingOut": "Logging out...",
+    "profile": "Profile",
+    "contributions": "Contributions"
+  },
+  "google": {
+    "continueWith": "Continue with Google",
+    "signingIn": "Signing in...",
+    "errors": {
+      "noAuthCode": "No authorization code received",
+      "loginFailed": "Google login failed. Please try again.",
+      "signupFailed": "Google signup failed. Please try again."
+    }
+  },
+  "globe": {
+    "gdp": "GDP",
+    "population": "Population",
+    "clickToExplore": "Click to explore history"
+  },
+  "timeline": {
+    "index": {
+      "title": "Explore World History",
+      "description": "Select a country from the sidebar to explore its historical timeline and discover fascinating stories from the past.",
+      "mobileHint": "Tap the menu icon to browse countries"
+    },
+    "sidebar": {
+      "searchPlaceholder": "Search countries...",
+      "sortBy": "Sort by",
+      "sortOptions": {
+        "alphabetical": "Alphabetical",
+        "byRegion": "By Region",
+        "byHistoricalEra": "By Era"
+      },
+      "noResults": "No countries found",
+      "provinces": "Provinces/States",
+      "openMenu": "Open menu",
+      "closeMenu": "Close menu"
+    },
+    "page": {
+      "title": "{country} Timeline",
+      "subtitle": "Explore the history of {country}",
+      "loading": "Loading timeline...",
+      "error": "Failed to load timeline",
+      "noEvents": "No historical events found",
+      "viewEssay": "Read More",
+      "essays": "{count, plural, =1 {1 essay} other {# essays}}",
+      "noDataTitle": "No Data for {country}",
+      "noDataDescription": "We're still working on adding historical content for this country. Check back soon or explore another country from the sidebar.",
+      "backToGlobe": "Back to Globe",
+      "yearsOfHistory": "years of history",
+      "essaysToExplore": "essays to explore"
+    },
+    "eras": {
+      "ancient": "Ancient",
+      "medieval": "Medieval",
+      "earlyModern": "Early Modern",
+      "modern": "Modern",
+      "contemporary": "Contemporary"
+    },
+    "essay": {
+      "loading": "Loading essay...",
+      "error": "Failed to load essay",
+      "minRead": "min read",
+      "tableOfContents": "Table of Contents",
+      "backToTimeline": "Back to Timeline",
+      "relatedEssays": "More from this year",
+      "tags": "Tags"
+    }
+  },
+  "about": {
+    "title": "About"
+  },
+  "auth": {
+    "login": {
+      "title": "Welcome Back",
+      "subtitle": "Sign in to explore history",
+      "submitButton": "Sign In",
+      "noAccount": "Don't have an account?",
+      "signUp": "Sign up",
+      "forgotPassword": "Forgot password?"
+    },
+    "signup": {
+      "title": "Join the Journey",
+      "subtitle": "Create an account to explore history",
+      "submitButton": "Create Account",
+      "hasAccount": "Already have an account?",
+      "signIn": "Sign in",
+      "validation": {
+        "passwordMismatch": "Passwords do not match"
+      }
+    },
+    "forgotPassword": {
+      "title": "Forgot Password",
+      "subtitle": "Enter your email and we'll send you a reset link",
+      "submitButton": "Send Reset Link",
+      "sending": "Sending...",
+      "rememberPassword": "Remember your password?",
+      "backToLogin": "Back to login",
+      "emailSent": {
+        "title": "Check Your Email",
+        "message": "We've sent a password reset link to:",
+        "instructions": "Click the link in the email to reset your password. If you don't see the email, check your spam folder.",
+        "openGmail": "Open Gmail",
+        "openOutlook": "Open Outlook"
+      },
+      "notifications": {
+        "success": {
+          "title": "Email Sent",
+          "message": "Password reset link has been sent to your email"
+        },
+        "error": {
+          "title": "Error",
+          "message": "Failed to send password reset email"
+        }
+      }
+    },
+    "resetPassword": {
+      "title": "Reset Password",
+      "subtitle": "Enter your new password below",
+      "submitButton": "Reset Password",
+      "resetting": "Resetting...",
+      "newPassword": "New Password",
+      "newPasswordPlaceholder": "Enter new password",
+      "confirmPassword": "Confirm Password",
+      "confirmPasswordPlaceholder": "Confirm new password",
+      "rememberPassword": "Remember your password?",
+      "backToLogin": "Back to login",
+      "invalidLink": {
+        "title": "Invalid Reset Link",
+        "message": "This password reset link is invalid or has expired. Please request a new password reset link.",
+        "requestNewLink": "Request New Link",
+        "backToLogin": "Back to Login"
+      },
+      "success": {
+        "title": "Password Reset Successful",
+        "message": "Your password has been updated successfully. You can now log in with your new password.",
+        "goToLogin": "Go to Login"
+      },
+      "notifications": {
+        "success": {
+          "title": "Success",
+          "message": "Your password has been reset successfully"
+        },
+        "error": {
+          "title": "Error",
+          "message": "Failed to reset password",
+          "passwordMismatch": "Passwords do not match",
+          "passwordTooShort": "Password must be at least 8 characters",
+          "invalidLink": "Invalid reset link"
+        }
+      }
+    },
+    "emailSent": {
+      "title": "Check Your Email",
+      "message": "We've sent a verification link to:",
+      "instructions": "Please check your inbox and click the verification link to activate your account.",
+      "openGmail": "Open Gmail",
+      "openOutlook": "Open Outlook",
+      "goToLogin": "Go to Login",
+      "didntReceive": "Didn't receive the email? Check your spam folder or",
+      "resendEmail": "resend verification email",
+      "sending": "Sending...",
+      "resendSuccess": "Verification email sent successfully!",
+      "resendError": "Failed to resend email. Please try again."
+    },
+    "emailVerified": {
+      "success": {
+        "title": "Email Verified",
+        "message": "Thank you! Your email has been successfully verified.",
+        "instructions": "You can now access your account by logging in.",
+        "goToLogin": "Go to Login"
+      },
+      "failure": {
+        "title": "Verification Failed",
+        "message": "We couldn't verify your email address.",
+        "instructions": "The verification link may have expired or is invalid. Please try again or contact support.",
+        "backToLogin": "Back to Login",
+        "createNewAccount": "Create New Account"
+      }
+    },
+    "fields": {
+      "email": {
+        "label": "Email",
+        "placeholder": "Enter your email"
+      },
+      "password": {
+        "label": "Password",
+        "placeholder": "Enter your password"
+      },
+      "fullName": {
+        "label": "Full Name",
+        "placeholder": "Enter your name"
+      },
+      "confirmPassword": {
+        "label": "Confirm Password",
+        "placeholder": "Confirm your password"
+      },
+      "newPassword": {
+        "label": "New Password",
+        "placeholder": "Enter new password"
+      },
+      "createPassword": {
+        "label": "Password",
+        "placeholder": "Create a password"
+      }
+    }
+  },
+  "metadata": {
+    "title": "Earlier Than This",
+    "description": "Explore the history of our world"
+  },
+  "onboarding": {
+    "skip": "Skip",
+    "back": "Back",
+    "next": "Continue",
+    "getStarted": "Start Exploring",
+    "beginTour": "Take the Tour",
+    "keyboardHint": "Use arrow keys to navigate • Press Escape to skip",
+    "steps": {
+      "welcome": {
+        "title": "Welcome, Explorer",
+        "subtitle": "Your Journey Through Time Begins",
+        "description": "Embark on an extraordinary voyage through the annals of human civilization. From ancient empires to modern nations, discover the stories that shaped our world."
+      },
+      "globe": {
+        "title": "The Interactive Globe",
+        "subtitle": "Your Gateway to Discovery",
+        "description": "Click on any country to unveil its rich historical tapestry. Watch as the globe responds to your curiosity, zooming into civilizations that once flourished across continents."
+      },
+      "timeline": {
+        "title": "Journey Through Eras",
+        "subtitle": "Navigate the River of Time",
+        "description": "Explore curated timelines spanning millennia. From the Bronze Age to the Digital Era, witness how events connected across centuries to shape the world you know today."
+      },
+      "contributions": {
+        "title": "Join the Chronicle",
+        "subtitle": "Add Your Voice to History",
+        "description": "History is written by those who share it. Contribute your knowledge, add essays, and help build the most comprehensive historical archive on the web."
+      },
+      "getStarted": {
+        "title": "Begin Your Expedition",
+        "subtitle": "The Past Awaits",
+        "description": "You're ready to explore. Click on the globe, dive into timelines, and uncover the fascinating stories of human civilization. Your journey through history starts now."
+      }
+    }
+  },
+  "admin": {
+    "login": {
+      "badge": "Admin Portal",
+      "title": "Admin Login",
+      "subtitle": "Sign in to access the admin dashboard",
+      "submitButton": "Sign In",
+      "noAccount": "Need admin access?",
+      "requestAccess": "Request access",
+      "userLoginHint": "Looking for user login? Go to /login"
+    },
+    "signup": {
+      "badge": "Admin Request",
+      "title": "Request Admin Access",
+      "subtitle": "Enter your email to request admin privileges",
+      "submitButton": "Request Access",
+      "submitting": "Submitting...",
+      "passwordNote": "A password will be automatically generated and sent to the super admin for approval.",
+      "hasAccount": "Already have admin access?",
+      "signIn": "Sign in",
+      "userSignupHint": "Looking for user signup? Go to /signup",
+      "success": {
+        "title": "Request Submitted",
+        "message": "Your admin access request has been submitted.",
+        "instructions": "The super admin will review your request. You'll receive an email once approved with your login credentials."
+      }
+    },
+    "approval": {
+      "success": {
+        "title": "Admin Access Granted",
+        "message": "Your admin account has been successfully created.",
+        "adminBadge": "Admin Account Active",
+        "instructions": "You can now log in using the credentials sent to the super admin.",
+        "goToLogin": "Go to Admin Login"
+      },
+      "failed": {
+        "title": "Approval Failed",
+        "message": "We couldn't complete your admin approval.",
+        "instructions": "The approval link may have expired or already been used. Please try requesting access again.",
+        "requestAgain": "Request Access Again",
+        "goHome": "Go to Homepage"
+      }
+    },
+    "sidebar": {
+      "appName": "Earlier Than This",
+      "adminPanel": "Admin Panel",
+      "dashboard": "Dashboard",
+      "countries": "Countries",
+      "timeline": "Timeline",
+      "essays": "Essays",
+      "contributions": "Contributions",
+      "settings": "Settings",
+      "admins": "Admins",
+      "collapse": "Collapse"
+    },
+    "navbar": {
+      "admin": "Admin",
+      "superAdmin": "Super Admin",
+      "profile": "Profile",
+      "logout": "Logout",
+      "loggingOut": "Logging out..."
+    },
+    "dashboard": {
+      "title": "Dashboard",
+      "subtitle": "Overview of your historical content platform",
+      "stats": {
+        "countries": "Countries with History",
+        "essays": "Total Essays",
+        "visitors": "Active Visitors",
+        "contributions": "Contributions"
+      },
+      "countryVisits": {
+        "title": "Country Visit Distribution"
+      },
+      "recentActivity": {
+        "title": "Recent Activity"
+      },
+      "topCountries": {
+        "title": "Top Countries by Traffic",
+        "country": "Country",
+        "visits": "Visits",
+        "essays": "Essays",
+        "share": "Share"
+      }
+    },
+    "countries": {
+      "title": "Countries",
+      "subtitle": "Manage countries and their provinces/states",
+      "searchPlaceholder": "Search countries...",
+      "filterByRegion": "Filter by region",
+      "noResults": "No countries found matching your criteria",
+      "table": {
+        "country": "Country",
+        "isoCode": "ISO Code",
+        "region": "Region",
+        "provinces": "Provinces",
+        "eras": "Historical Eras",
+        "actions": "Actions"
+      },
+      "editModal": {
+        "title": "Edit Country",
+        "countryName": "Country Name",
+        "provinces": "Provinces/States",
+        "addProvince": "Add Province",
+        "cancel": "Cancel",
+        "save": "Save Changes"
+      },
+      "subRegionModal": {
+        "addTitle": "Add Province/State",
+        "editTitle": "Edit Province/State",
+        "name": "Name",
+        "namePlaceholder": "Enter province name",
+        "type": "Type",
+        "cancel": "Cancel",
+        "add": "Add",
+        "update": "Update"
+      }
+    },
+    "timeline": {
+      "title": "Timeline",
+      "subtitle": "Manage historical timeline events and their years",
+      "filters": {
+        "country": "Country",
+        "selectCountry": "Select a country",
+        "province": "Province/State",
+        "selectProvince": "Select a province",
+        "year": "Year",
+        "selectYear": "Select a year"
+      },
+      "majorEvent": "Major Event",
+      "noEvents": "No timeline events found for the selected filters",
+      "selectCountryPrompt": {
+        "title": "Select a Country",
+        "description": "Choose a country from the dropdown above to view and manage its historical timeline."
+      }
+    },
+    "essays": {
+      "title": "Essays",
+      "subtitle": "Create and edit historical essays with rich content",
+      "filters": {
+        "country": "Country",
+        "selectCountry": "Select a country",
+        "province": "Province/State",
+        "selectProvince": "Select a province",
+        "year": "Year",
+        "selectYear": "Select a year",
+        "essay": "Essay",
+        "selectEssay": "Select an essay"
+      },
+      "editor": {
+        "title": "Essay Editor",
+        "save": "Save Changes",
+        "tabs": {
+          "content": "Content",
+          "metadata": "Metadata",
+          "media": "Media"
+        },
+        "fields": {
+          "title": "Title",
+          "subtitle": "Subtitle",
+          "summary": "Summary",
+          "tags": "Tags",
+          "tagsPlaceholder": "Add tags...",
+          "era": "Historical Era"
+        },
+        "contentBlocks": "Content Blocks",
+        "readingTime": "Estimated reading time",
+        "coverImage": "Cover Image",
+        "uploadImage": "Upload Image",
+        "videoLinks": "Video Links",
+        "addVideo": "Add"
+      },
+      "selectEssayPrompt": {
+        "title": "Select an Essay",
+        "description": "Use the dropdowns above to filter and select an essay to edit."
+      }
+    },
+    "contributions": {
+      "title": "Contribution Settings",
+      "subtitle": "Configure which fields appear on the user contribution form",
+      "settings": {
+        "title": "Form Fields",
+        "save": "Save Settings",
+        "enabled": "Show",
+        "required": "Required"
+      },
+      "fields": {
+        "email": {
+          "label": "Email",
+          "description": "Contributor's email address for follow-up"
+        },
+        "name": {
+          "label": "Name",
+          "description": "Contributor's full name"
+        },
+        "country": {
+          "label": "Country",
+          "description": "Country the contribution relates to"
+        },
+        "year": {
+          "label": "Year",
+          "description": "Historical year or period"
+        },
+        "description": {
+          "label": "Description",
+          "description": "Detailed description of the contribution"
+        },
+        "file": {
+          "label": "File Upload",
+          "description": "Allow file attachments (images, documents)"
+        },
+        "tags": {
+          "label": "Tags",
+          "description": "Topic tags for categorization"
+        },
+        "sources": {
+          "label": "Sources",
+          "description": "References and citations"
+        }
+      },
+      "preview": {
+        "title": "Form Preview",
+        "formTitle": "Contribute to History",
+        "submitButton": "Submit Contribution",
+        "note": "This is a preview of how the form will appear to users"
+      }
+    },
+    "profile": {
+      "title": "Account Settings",
+      "subtitle": "Manage your admin profile and security settings",
+      "roles": {
+        "admin": "Admin",
+        "superAdmin": "Super Admin"
+      },
+      "personalInfo": {
+        "title": "Personal Information",
+        "save": "Save",
+        "firstName": "First Name",
+        "lastName": "Last Name",
+        "email": "Email",
+        "phone": "Phone Number"
+      },
+      "security": {
+        "title": "Change Password",
+        "updatePassword": "Update Password",
+        "currentPassword": "Current Password",
+        "currentPasswordPlaceholder": "Enter current password",
+        "newPassword": "New Password",
+        "newPasswordPlaceholder": "Enter new password",
+        "confirmPassword": "Confirm New Password",
+        "confirmPasswordPlaceholder": "Confirm new password",
+        "passwordMismatch": "Passwords do not match",
+        "passwordHint": "Password must be at least 8 characters with a mix of letters and numbers"
+      }
+    }
+  }
+}
